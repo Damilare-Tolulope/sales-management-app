@@ -1,0 +1,55 @@
+@media (min-width: 600px) {
+  .styles_react-code-input__CRulA>input {
+    margin: 0 13px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .styles_react-code-input__CRulA>input {
+    margin: 0 3px !important;
+  }
+}
+
+.styles_react-code-input__CRulA>input {
+  border-right: solid 1px #a8adb7 !important;
+  border-radius: 8px !important;
+}
+
+.styles_react-code-input-container__tpiKG {
+  width: 100% !important;
+}
+
+.css-1s2u09g-control,
+.css-1t8y0t9-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.css-1pahdxg-control {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.css-1s2u09g-control:hover {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.css-1gtu0rj-indicatorContainer {
+  color: #0052CC !important;
+  transform: rotate(180deg);
+  transition: all 0.7s;
+}
+
+.css-1okebmr-indicatorSeparator {
+  width: 0 !important;
+}
+
+.css-1vp9nu5-control {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.custom-checkbox:checked {
+  background-color: #0052CC !important;
+}

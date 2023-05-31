@@ -1,0 +1,13 @@
+.cus-date-input > input::-webkit-datetime-edit {
+  display: none !important;
+}
+.cus-date-input > input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(../../../assets/images/calenderIcon.png) no-repeat;
+  width: 27px;
+  height: 27px;
+  border-width: thin;
+  cursor: pointer;
+}

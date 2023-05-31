@@ -1,0 +1,43 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body {
+	/* font-family: 'Abril Fatface', cursive; */
+	font-family: 'Work Sans', sans-serif;
+}
+h1 {
+	font-weight: 800;
+	font-size: 34px;
+}
+p {
+	font-size: 16px;
+}
+h2 {
+	font-weight: 600;
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+	font-weight: 600;
+}
+input {
+	box-shadow: none;
+	outline: none;
+}
+select {
+	box-shadow: none;
+	outline: none;
+}
+h3 {
+	font-size: 26px;
+	font-weight: 600;
+}
+.react-tabs__tab--selected {
+	background: #ffffff;
+	color: #333333;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "img": "https://user-images.githubusercontent.com/24845008/179405038-a78a228e-9a98-4d63-8cb4-eef6157dbb75.png",
+    "name": "Winter Jacket",
+    "color": "Black",
+    "size": "M",
+    "qty": 1,
+    "price": 50
+  },
+  {
+    "id": 2,
+    "img": "https://user-images.githubusercontent.com/24845008/179405041-f987cc0b-1fdb-4be2-9df5-4d7d8a4c506e.png",
+    "name": "Winter Gloves",
+    "color": "Black and white",
+    "size": "M",
+    "qty": 1,
+    "price": 10
+  },
+  {
+    "id": 3,
+    "img": "https://user-images.githubusercontent.com/24845008/179405040-164a949a-acf6-4d64-adde-99dd7d261fe0.png",
+    "name": "Winter boots",
+    "color": "Brown",
+    "size": "39",
+    "qty": 1,
+    "price": 80
+  }
+]

@@ -1,0 +1,104 @@
+/** @format */
+.logo {
+	width: 100px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.root {
+	display: flex;
+	min-height: 100vh;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	align-items: center;
+	width: 100%;
+}
+
+.drawer {
+	width: 240px;
+	z-index: 999999;
+	height: 100vh;
+	padding: 10px 0px;
+	background: #0052CC;
+	color: #fff;
+}
+
+.appBar {
+	z-index: 9999999;
+	background-color: #fff;
+}
+
+.appBarShift {
+	margin-left: 240;
+}
+
+.menuButton {
+	cursor: pointer;
+	color: #edbf21;
+}
+
+.hide {
+	display: none;
+}
+
+.drawerPaper {
+	width: 240px;
+}
+
+.drawerOpen {
+	width: 240px;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+}
+
+.drawerClose {
+	overflow-x: hidden;
+	width: 0;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+}
+
+.content {
+	flex-grow: 1;
+	margin: 0;
+	padding: 2px;
+	min-height: 100vh;
+	width: 100%;
+}
+
+header {
+	height: 12vh;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+header .menuButton {
+	margin-right: 20px;
+}
+
+.container {
+	height: 87vh;
+	overflow-y: auto;
+}
+
+.scroll {
+	overflow-x: auto;
+	height: 80vh;
+	width: 100%;
+}
+
+.scroll::-webkit-scrollbar {
+	width: 5px !important;
+	height: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: none;
+}
+
+.scroll::-webkit-scrollbar-track {
+	box-shadow: none;
+}
